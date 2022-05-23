@@ -1,4 +1,4 @@
-from binTree import BinTree
+from bintree import BinTree
 from person import Person
 # Add Graphviz
 # lst = [3, 1, 4, 0, 0, 2, 0, 0, 5, 0, 0]
@@ -33,9 +33,8 @@ class Experiment:
         output = []
         for id in range(1, self.__n + 1):
             gens_person = []
-            for n in range(len(genomes[id])//self.get_genome_size()):
-                gens_person += genomes[id][n:((n+1)+1)]
-
+            for n in range(len(genomes[id - 1])//self.get_genome_size()):
+                gens_person += genomes[id - 1][n:((n+1)+1)]
             output += [Person(id, gens_person)]
         return output
 
@@ -54,6 +53,7 @@ class Experiment:
 
 
 #   Funciones que piden explicitamente los profes
+
 
     def afegir_tret(self, id, feature):
         assert type(feature) == str

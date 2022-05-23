@@ -17,9 +17,9 @@ class Person:
     def __str__(self) -> str:
         output = ""
         for genome in self.get_genomes():
-            output += str(genome) + "\n"
+            output += str(genome)
         for feature in self.get_features():
-            output += str(feature) + "\n"
+            output += str(feature)
         return output
 
     def has_feature(self, feature):

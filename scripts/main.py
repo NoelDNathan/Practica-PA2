@@ -1,6 +1,5 @@
-from pyparsing import WordEnd
 from experimenter import Experiment
-import sys
+# import sys
 
 
 def main(input_data):
@@ -19,7 +18,7 @@ def main(input_data):
             tree = input_data.readline().split()
             genomes = []
             for _ in range(n):
-                genomes += input_data.readline()
+                genomes += [input_data.readline()[0:-2]]
 
             experiment = Experiment(n, m, tree, genomes)
 
