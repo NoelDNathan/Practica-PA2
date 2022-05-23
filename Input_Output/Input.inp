@@ -1,0 +1,69 @@
+experiment 5 8
+3 1 4 0 0 2 0 0 5 0 0
+1111111111111111
+0000000011111111
+0101010100001111
+1010101010101010
+1100110010101010
+consulta_individu 1
+consulta_individu 2
+consulta_individu 3
+consulta_individu 4
+consulta_individu 5
+consulta_tret qwerty_12
+distribucio_tret qwerty_12
+afegir_tret qwerty_12 3
+consulta_tret qwerty_12
+distribucio_tret qwerty_12
+afegir_tret qwerty_12 3
+consulta_individu 3
+consulta_tret qwerty_12
+afegir_tret asdf_34 5
+distribucio_tret asdf_34
+consulta_tret asdf_34
+afegir_tret asdf_34 4
+distribucio_tret asdf_34
+consulta_tret asdf_34
+afegir_tret asdf_34 2
+distribucio_tret asdf_34
+consulta_tret asdf_34
+afegir_tret zxcv_13 1
+distribucio_tret zxcv_13
+afegir_tret asdf_34 3
+distribucio_tret asdf_34
+consulta_individu 3
+afegir_tret asdf_31 3
+consulta_individu 3
+
+experiment 3 3
+1 2 0 0 3 0 0
+111010
+111000
+111111
+consulta_individu 1
+consulta_individu 2
+consulta_individu 3
+consulta_tret qwert1
+afegir_tret qwert1 1
+consulta_tret qwert1
+afegir_tret qwert1 2
+consulta_tret qwert1
+afegir_tret qwert1 3
+consulta_tret qwert1
+
+experiment 3 3
+1 2 0 0 3 0 0
+111111
+111111
+111111
+consulta_individu 1
+consulta_individu 2
+consulta_individu 3
+afegir_tret qwert1 1
+consulta_individu 1
+consulta_tret qwert1
+distribucio_tret qwert1
+distribucio_tret asdf
+
+fi
+
